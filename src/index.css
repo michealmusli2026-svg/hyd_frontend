@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+
+@reference "tailwindcss";
+
+.input {
+  @apply border border-slate-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+.label {
+  @apply block text-sm font-medium text-slate-600 mb-1;
+}
